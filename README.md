@@ -15,7 +15,7 @@ ActiveJobScheduler is a Ruby on Rails gem that provides a simple and efficient w
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_job_scheduler'
+gem 'active_job_cron_scheduler'
 ```
 
 And then execute:
