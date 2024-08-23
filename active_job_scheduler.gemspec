@@ -1,7 +1,7 @@
 require_relative "lib/active_job_scheduler/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "active_job_scheduler"
+  spec.name        = "active_job_cron_scheduler"
   spec.version     = ActiveJobScheduler::VERSION
   spec.authors     = ["Anatoly Zelenin"]
   spec.email       = ["anatoly@zelenin.de"]
@@ -22,8 +22,6 @@ Gem::Specification.new do |spec|
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
   spec.add_dependency "rails", ">= 5.2"
