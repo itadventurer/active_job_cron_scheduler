@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-module ActiveJobScheduler
-  module ActiveJobScheduler
+module ActiveJobCronScheduler
+  module ActiveJobCronScheduler
     extend ActiveSupport::Concern
 
     included do

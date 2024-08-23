@@ -3,7 +3,7 @@
 require 'rails/generators'
 require 'rails/generators/migration'
 
-module ActiveJobScheduler
+module ActiveJobCronScheduler
   module Generators
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration
